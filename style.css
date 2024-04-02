@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+main{
+    height: 93vh;
+}
+
+img {
+    width: 100px;
+}
+
+span {
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h4 {
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgba(83, 0, 0, 0.966);
+}
+
+.paragrafo {
+    position: relative;
+}
+
+.boletim {
+    width: 500px;
+    height: 700px;
+    border-collapse: collapse;
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.144);
+}
+
+.dados {
+    font-weight: bold;
+    width: 500px;
+    height: 100px;
+    border-collapse: collapse;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+td {
+    text-transform: uppercase;
+    border: 2px solid rgba(0, 0, 0, 0.377);
+}
+
+.notas {
+    text-align: center;
+    color: rgb(9, 28, 138);
+    font-weight: bold;
+}
+
+.negativa {
+    color: red;
+}
+
+.content {
+    font-weight: bold;
+    padding-left: 6px;
+    text-align: center;
+    padding: 8px;
+}
+
+.content2 {
+    font-weight: bold;
+    padding-left: 6px;
+}
+
+tfoot>tr>td {
+    padding: 8px;
+}
+
+.hover:hover {
+    background-color: rgba(0, 162, 255, 0.151);
+}
